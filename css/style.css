@@ -1,0 +1,59 @@
+
+
+/* ============================================
+   Design direction
+   Body font:     Georgia, serif
+   Heading font:  Helvetica, sans-serif
+   Text color:    #222222
+   Background:    #fdfdfb
+   Accent:        #1a5f9c
+   Mood: quiet, editorial, plenty of white space
+   ============================================ */
+
+/* --- Base and typography --- */
+body {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 100%;
+  line-height: 1.6;
+  color: #ff5084;
+  background-color: #fec2d4;
+  margin: 0;
+}
+
+body { font-size: 100%; }     /* respects the reader's own setting */
+h1   { font-size: 2rem; }
+h2   { font-size: 1.5rem; }
+h3   { font-size: 1.25rem; }
+h4   { font-size: 1rem; }
+
+a { color: #f83670; }
+a:hover { color: #f5f8fb; }
+
+/* --- Wrapper --- */
+.wrapper {
+  max-width: 38rem;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+/* --- Header and nav --- */
+.nav-link { font-size: 1rem; }
+.nav-link { text-decoration: none; }
+/* --- Hero --- */
+
+.hero-title {color:#ff5084;}
+{ font-size: 2rem; }
+.hero-text {color:#ff5084;}
+{ font-size: 2rem; }
+/* --- Text blocks --- */
+
+
+
+/* --- Lists --- */
+
+
+/* --- Links --- */
+
+
+
+/* --- Footer --- */
