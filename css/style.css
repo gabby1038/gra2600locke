@@ -46,9 +46,8 @@ a:hover { color: #f5f8fb; }
 .hero-text {color:#ff5084;}
 { font-size: 2rem; }
 /* --- Text blocks --- */
-
-
-
+.hero-title {color:#ff5084;}
+.hero-text {color:#ff5084;}
 /* --- Lists --- */
 
 
