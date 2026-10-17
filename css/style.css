@@ -102,6 +102,7 @@ a:hover { color: #f5f8fb; }
   margin-bottom: 40px;
 }
 
+p {display: flow-root;}
 /* --- Lists --- */
 
 
