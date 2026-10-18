@@ -53,6 +53,16 @@ a:hover { color: #f5f8fb; }
 
 /* --- Header and nav --- */
 
+
+/* --- Logo --- */
+.site-header p {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #c2185b;
+  margin: 0 0 12px;
+}
+
 .nav-link {
   display: inline-block;
   padding: 8px 12px;
