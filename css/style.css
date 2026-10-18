@@ -15,6 +15,9 @@
 * {
   outline: 1px solid red;
 }
+* {
+  outline: 0 solid red;
+}
 
 *, *::before, *::after {
   box-sizing: border-box;
@@ -153,7 +156,7 @@ p {display: flow-root;}
 .site-footer {
   margin-top: 60px;
   padding: 32px 0;
-  background-color: #fce4ec;
+  background-color: #fec2d4;
 }
 
 .site-footer a {
@@ -163,5 +166,13 @@ p {display: flow-root;}
 }
 
 .site-footer a:hover {
-  color: #f83670;
+  color: #fce4ec;
+}
+
+/* --- Small screen navigation --- */
+@media (max-width: 500px) {
+  .nav-link {
+    padding: 6px 8px;
+    font-size: 0.9rem;
+  }
 }
