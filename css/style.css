@@ -12,10 +12,13 @@
 
 /* --- Base and typography --- */
 /* DEBUG: see the boxes. Change 1px to 0 to hide them. */
+* {
+  outline: 1px solid red;
+}
+
 *, *::before, *::after {
   box-sizing: border-box;
 }
-* { outline: 1px solid rgba(0, 0, 0, 0); }
 
 body {
   font-family: Georgia, "Times New Roman", serif;
@@ -42,10 +45,37 @@ a:hover { color: #f5f8fb; }
   margin: 0 auto;
   padding: 40px;
 }
+/* content-box: 800 + 40 + 40 = 880px wide */
+
 
 /* --- Header and nav --- */
-.nav-link { font-size: 1rem; }
-.nav-link { text-decoration: none; }
+
+.nav-link {
+  display: inline-block;
+  padding: 8px 12px;
+  border-radius: 6px;
+  text-decoration: none;
+  color: #f83670;
+}
+
+.nav-link:hover {
+  background-color: #fce4ec;
+}
+
+.nav-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-list li {
+  display: inline-block;
+}
+
+.site-header {
+  background-color: #ffec2d4;
+  padding: 16px 0;
+}
 /* --- Hero --- */
 
 .hero {
@@ -66,7 +96,6 @@ a:hover { color: #f5f8fb; }
 }
 
 .hero-text {color:#fffbfc;
-  .hero-text 
   position: absolute;
   top: 80%;
   left: 5%;
@@ -87,16 +116,22 @@ a:hover { color: #f5f8fb; }
   display: block;
 }
 
+.hero-title,
+.hero-text {
+  background-color: rgba(241, 91, 169, 0.5);
+  padding: 8px 16px;
+}
+
 /* --- Text blocks --- */
 .section-title {
   margin: 32px 0 8px;   /* top, left and right, bottom */
 }
 .image-inline {
-  float: right;
+  float: left;
   width: 40%;
   max-width: 100%;
-  margin-right: 1em;
-  display: flow-root;
+  margin: 0 1em 0.5em 0;
+  border-radius: 6px;
 }
 .text-block {
   margin-bottom: 40px;
@@ -113,4 +148,20 @@ p {display: flow-root;}
 /* --- Footer --- */
 .rounded-image {
     border-radius: 20px;
+}
+/* --- Footer --- */
+.site-footer {
+  margin-top: 60px;
+  padding: 32px 0;
+  background-color: #fce4ec;
+}
+
+.site-footer a {
+  color: #c2185b;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.site-footer a:hover {
+  color: #f83670;
 }
