@@ -15,14 +15,10 @@
 * {
   outline: 1px solid red;
 }
-* {
-  outline: 0 solid red;
-}
 
 *, *::before, *::after {
   box-sizing: border-box;
 }
-
 body {
   font-family: Georgia, "Times New Roman", serif;
   font-size: 100%;
@@ -185,4 +181,11 @@ p {display: flow-root;}
     padding: 6px 8px;
     font-size: 0.9rem;
   }
+}
+
+/* FLEX CONTAINER: image + text side by side */
+.flex-row {
+  display: flex;
+  gap: 2em;
+  margin-bottom: 35px;
 }
