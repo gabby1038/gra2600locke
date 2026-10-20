@@ -189,3 +189,6 @@ p {display: flow-root;}
   gap: 2em;
   margin-bottom: 35px;
 }
+.flex-media {
+  width: 40%;
+}
