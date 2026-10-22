@@ -13,7 +13,7 @@
 /* --- Base and typography --- */
 /* DEBUG: see the boxes. Change 1px to 0 to hide them. */
 * {
-  outline: 0 solid red;
+  outline: 0;
 }
 
 *, *::before, *::after {
@@ -49,14 +49,39 @@ a:hover { color: #f5f8fb; }
 
 /* --- Header and nav --- */
 
+.site-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2em;
+  flex-wrap: wrap;
+  background-color: #fec2d4;
+  padding: 16px 24px;
+}
 
 /* --- Logo --- */
-.site-header p {
+
+.site-header .logo {
   font-family: Helvetica, Arial, sans-serif;
   font-size: 1.5rem;
   font-weight: bold;
   color: #c2185b;
-  margin: 0 0 12px;
+  text-decoration: none;
+}
+
+.site-header .logo:hover {
+  color: #f83670;
+}
+
+/* --- Navigation --- */
+
+.nav-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 .nav-link {
@@ -71,20 +96,6 @@ a:hover { color: #f5f8fb; }
   background-color: #fce4ec;
 }
 
-.nav-list {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-.nav-list li {
-  display: inline-block;
-}
-
-.site-header {
-  background-color: #fec2d4;
-  padding: 16px 0;
-}
 /* --- Hero --- */
 
 .hero {
