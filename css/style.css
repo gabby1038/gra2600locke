@@ -313,6 +313,58 @@ p {display: flow-root;}
     flex-direction: column;
   }
 
-}
+  /* Style the dropdown menu */
+  .site-nav {
+    background-color: #fce4ec;
+    padding: 12px;
+    border-radius: 10px;
+    margin-top: 12px;
+  }
 
+  .nav-link {
+    display: block;
+    padding: 10px 12px;
+    border-bottom: 1px solid #f8a8c2;
+  }
+
+  /* Make the content fit better on phones */
+  .wrapper {
+    width: 100%;
+    padding: 16px;
+  }
+
+  /* Make the hero image shorter on phones */
+  .hero-image {
+    height: 300px;
+  }
+
+  /* Adjust hero text for smaller screens */
+  .hero-title {
+    top: 42%;
+    font-size: 1.35rem;
+  }
+
+  .hero-text {
+    top: 68%;
+    font-size: 0.9rem;
+  }
+
+  /* Stack feature image and text on mobile */
+  .flex-row {
+    flex-direction: column;
+  }
+
+  .flex-media {
+    width: 100%;
+  }
+
+  /* Stop floated images from squeezing text */
+  .image-inline {
+    float: none;
+    display: block;
+    width: 100%;
+    margin-right: 0;
+  }
+
+}
 
