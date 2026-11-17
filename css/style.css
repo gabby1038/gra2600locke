@@ -273,6 +273,71 @@ p {display: flow-root;}
   color: #fce4ec;
 }
 
+/* ============================================
+   FORM STYLES
+   ============================================ */
+
+form {
+  max-width: 500px;
+  margin: auto;
+  background-color: #fff0f5;
+  border: 2px solid #f83670;
+  border-radius: 15px;
+  padding: 25px;
+}
+
+label {
+  display: block;
+  margin-top: 20px;
+  font-weight: bold;
+  color: #c2185b;
+}
+
+input {
+  width: 90%;
+  padding: 10px;
+  margin-top: 6px;
+  border: 1px solid #f83670;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+textarea {
+  width: 90%;
+  max-width: 100%;
+  padding: 10px;
+  margin-top: 6px;
+  border: 1px solid #f83670;
+  border-radius: 8px;
+  font-size: 16px;
+  font-family: inherit;
+}
+
+.phone {
+  width: 60%;
+}
+
+button {
+  display: block;
+  margin-top: 20px;
+  background-color: #f83670;
+  color: white;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #c2185b;
+}
+
+input:user-invalid {
+  border: 2px solid red;
+}
+
 /* --- Small screen navigation --- */
 @media (max-width: 500px) {
   .nav-link {
