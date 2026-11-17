@@ -338,6 +338,18 @@ input:user-invalid {
   border: 2px solid red;
 }
 
+/* Radio button styling */
+input[type="radio"] {
+  width: auto;
+  margin: 0 6px 0 0;
+  accent-color: #f83670;
+  vertical-align: middle;
+}
+
+input[type="radio"] + label {
+  display: inline;
+  margin: 0 20px 0 0;
+}
 /* --- Small screen navigation --- */
 @media (max-width: 500px) {
   .nav-link {
