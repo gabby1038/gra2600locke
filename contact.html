@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -14,44 +15,82 @@
 
   <main class="page-main">
 
-  <div class="hero">
-    <img class="hero-image" src="images/flower-sonny.jpg" alt="Flower-themed Sonny Angel figure">
-    <h1 class="hero-title">Contact Me</h1>
-    <p class="hero-text">Have questions or want to talk about Sonny Angels? I'd love to hear from you!</p>
-  </div>
+    <div class="hero">
+      <img class="hero-image" src="images/flower-sonny.jpg" alt="Flower-themed Sonny Angel figure">
+      <h1 class="hero-title">Contact Me</h1>
+      <p class="hero-text">Have questions or want to talk about Sonny Angels? I'd love to hear from you!</p>
+    </div>
 
-  <div class="wrapper">
+    <div class="wrapper">
 
-    <section class="text-block">
-      <h2 class="section-title">Get in Touch!</h2>
+      <section class="text-block">
+        <h2 class="section-title">Get in Touch!</h2>
 
-      <p>
-        Thank you for visiting my Sonny Angel Collection website!
-        Whether you are a longtime collector or just discovering
-        these adorable figures, I hope you enjoyed exploring.
-      </p>
+        <p>
+          Thank you for visiting my Sonny Angel Collection website!
+          Whether you are a longtime collector or just discovering
+          these adorable figures, I hope you enjoyed exploring.
+        </p>
 
-      <p>
-        If you have questions, suggestions, or want to share your
-        favorite Sonny Angel designs, feel free to reach out!
-      </p>
+        <p>
+          If you have questions, suggestions, or want to share your
+          favorite Sonny Angel designs, feel free to reach out!
+        </p>
 
-      <p>
-        **Email:** 
-        <a href="mailto:Gabriella.locke@ctstate.edu">Gabriella.locke@ctstate.edu</a>
-      </p>
+        <p>
+          <strong>Email:</strong>
+          <a href="mailto:Gabriella.locke@ctstate.edu">Gabriella.locke@ctstate.edu</a>
+        </p>
 
-      <p>
-        **Phone:** 860-555-0100 (Placeholder)
-      </p>
+        <p>
+          <strong>Phone:</strong> 860-555-0100 (Placeholder)
+        </p>
 
-      <p>
-        Visit the <a href="https://www.sonnyangel.com/en/" target="_blank" rel="noopener noreferrer">official Sonny Angel website</a> to explore even more figures and collections!
-      </p>
-    </section>
+        <p>
+          Visit the <a href="https://www.sonnyangel.com/en/" target="_blank" rel="noopener noreferrer">official Sonny Angel website</a> to explore even more figures and collections!
+        </p>
 
-  </div>
-</main>
+      </section>
+
+      <section class="text-block">
+        <h2 class="section-title">Send Me a Message!</h2>
+
+        <form action="https://formspree.io/f/xzerrbbv" method="POST" id="contact-form">
+
+          <p>
+            <label for="first-name">First Name</label>
+            <input type="text" id="first-name" name="first-name">
+          </p>
+
+          <p>
+            <label for="last-name">Last Name</label>
+            <input type="text" id="last-name" name="last-name">
+          </p>
+
+          <p>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+          </p>
+
+          <p>
+            <label for="phone">Phone</label>
+            <input type="tel" id="phone" name="phone" class="phone">
+          </p>
+
+          <p>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="6" cols="40"></textarea>
+          </p>
+
+          <p>
+            <button type="submit">Send Message</button>
+          </p>
+
+        </form>
+      </section>
+
+    </div>
+  </main>
 
   <!-- PAGE BOTTOM: shared footer -->
   <div id="page-bottom"></div>
