@@ -369,6 +369,10 @@ input[type="radio"] + label {
   border: none;
   padding: 0;
   background: transparent;
+  margin: auto;
+  max-width: 90vw;
+  max-height: 85vh;
+  overflow: auto;
 }
 
 .pop-up::backdrop {
