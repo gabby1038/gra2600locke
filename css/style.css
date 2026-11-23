@@ -384,6 +384,47 @@ input[type="radio"] + label {
   max-width: 90vw;
   max-height: 85vh;
 }
+
+/* --- Information pop-up --- */
+.pop-info {
+  width: 80vw;
+  max-width: 700px;
+  max-height: 85vh;
+  overflow: auto;
+  margin: auto;
+  padding: 30px;
+  border: none;
+  border-radius: 15px;
+  background-color: #ffffff;
+  color: #ff5084;
+  font-family: Georgia, "Times New Roman", serif;
+}
+
+.pop-info::backdrop {
+  background: rgba(0, 0, 0, 0.6);
+}
+
+/* --- Information pop-up buttons --- */
+.pop-button,
+.pop-close {
+  background-color: #f83670;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.pop-button:hover,
+.pop-close:hover {
+  background-color: #c2185b;
+}
+
+.pop-close {
+  margin-top: 12px;
+}
 /* --- Small screen navigation --- */
 @media (max-width: 500px) {
   .nav-link {
